@@ -9,12 +9,12 @@ http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 		<class>br.com.fiap.entity.Evento</class>
 		<class>br.com.fiap.entity.Participante</class>
 		<properties>
-			<property name="hibernate.hbm2ddl.auto" value="create" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
 			<property name="hibernate.format_sql" value="true" />
 			<property name="hibernate.dialect"
 				value="org.hibernate.dialect.MySQL5InnoDBDialect" />
 			<property name="javax.persistence.jdbc.url"
-				value="jdbc:mysql://10.20.74.25:3306/dbeventos?createDatabaseIfNotExist=true&amp;serverTimezone=UTC&amp;useSSL=false" />
+				value="jdbc:mysql://localhost:3306/dbeventos?createDatabaseIfNotExist=true&amp;serverTimezone=UTC&amp;useSSL=false" />
 			<property name="javax.persistence.jdbc.user" value="root" />
 			<property name="javax.persistence.jdbc.password" value="" />
 			<property name="javax.persistence.jdbc.driver"
